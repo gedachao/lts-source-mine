@@ -20,10 +20,11 @@ public class JobRunnerDispatcher implements JobRunner {
     static{
         JOB_RUNNER_MAP.put("aType",new JobAHandler());
         JOB_RUNNER_MAP.put("bType",new JobBHandler());
+        JOB_RUNNER_MAP.put("cType",new JobCHandler());
     }
 
 
-    @Override
+
     public Result run(JobContext jobContext) throws Throwable {
         Job job = jobContext.getJob();
         String type = job.getParam("type");
