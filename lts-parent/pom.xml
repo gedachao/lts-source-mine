@@ -17,7 +17,7 @@
         <druid.version>1.0.14</druid.version>
         <quartz.version>2.2.2</quartz.version>
         <lts.version>1.7.0</lts.version>
-        <starter.web.version>2.3.0.RELEASE</starter.web.version>
+        <starter.web.version>2.5.12</starter.web.version>
         <redis.client.version>2.9.0</redis.client.version>
     </properties>
 
